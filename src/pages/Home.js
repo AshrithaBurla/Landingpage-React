@@ -51,7 +51,7 @@ import insta from "../assets/Instagram - Negative.png"
 import logo from "../assets/Logo.png"
 import homvb from "../assets/HomeVibes.png"
 
-
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
 function Home() {
   return (
     <div>
@@ -229,7 +229,7 @@ function Home() {
         <div className="side">
           <div className="side1">
             <ul>
-              <li>Company</li>
+              <li id="comp">COMPANY </li>
               <li>About us</li>
               <li>Carrers</li>
               <li>Contact Us</li>
@@ -238,7 +238,7 @@ function Home() {
           </div>
           <div className="side2">
             <ul>
-              <li>Product</li>
+              <li id="prod">PRODUCT </li>
               <li>Catergories</li>
               <li>New Arrivals</li>
               <li>Best Seller</li>
