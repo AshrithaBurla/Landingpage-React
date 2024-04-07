@@ -707,3 +707,198 @@ a{
 li{
     padding: 10px;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    .home,.BoxText
+,.Text1
+,.picbg
+,.pictures
+,.BestS
+,.lamp
+,.plant1
+,.plant2
+,.light
+,.oval
+,.homepic
+,.box
+,.f
+,.images1
+,.d
+,.images2
+,.l
+,.images3
+,.home2
+,.TextHead
+,.TextHead2
+,.Images
+,.Img1
+,.Img2
+,.Img3
+,.middle
+,.home3
+,.photo
+,.ShortText
+,.script
+,.Zangmo
+,.home4
+,.AllBox
+,.box1
+,.box2
+,.box3
+,.quote
+,.Inside
+,.avatar
+,.av1
+,.av2
+,.av3
+,.home5
+,.logos
+,.mail
+,.details
+,.conct
+,.name
+,.home6
+,.logo
+,.smallLogo
+,.homevb
+,.BigBox
+,.textFooter
+,.divMail
+,.policy
+,.tc
+,.side1
+,.side2 {
+      justify-content: center;
+    }
+  
+    .home,.BoxText
+    ,.Text1
+    ,.picbg
+    ,.pictures
+    ,.BestS
+    ,.lamp
+    ,.plant1
+    ,.plant2
+    ,.light
+    ,.oval
+    ,.homepic
+    ,.box
+    ,.f
+    ,.images1
+    ,.d
+    ,.images2
+    ,.l
+    ,.images3
+    ,.home2
+    ,.TextHead
+    ,.TextHead2
+    ,.Images
+    ,.Img1
+    ,.Img2
+    ,.Img3
+    ,.middle
+    ,.home3
+    ,.photo
+    ,.ShortText
+    ,.script
+    ,.Zangmo
+    ,.home4
+    ,.AllBox
+    ,.box1
+    ,.box2
+    ,.box3
+    ,.quote
+    ,.Inside
+    ,.avatar
+    ,.av1
+    ,.av2
+    ,.av3
+    ,.home5
+    ,.logos
+    ,.mail
+    ,.details
+    ,.conct
+    ,.name
+    ,.home6
+    ,.logo
+    ,.smallLogo
+    ,.homevb
+    ,.BigBox
+    ,.textFooter
+    ,.divMail
+    ,.policy
+    ,.tc
+    ,.side1
+    ,.side2 {
+      width: 100%; 
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .home,.BoxText
+,.Text1
+,.picbg
+,.pictures
+,.BestS
+,.lamp
+,.plant1
+,.plant2
+,.light
+,.oval
+,.homepic
+,.box
+,.f
+,.images1
+,.d
+,.images2
+,.l
+,.images3
+,.home2
+,.TextHead
+,.TextHead2
+,.Images
+,.Img1
+,.Img2
+,.Img3
+,.middle
+,.home3
+,.photo
+,.ShortText
+,.script
+,.Zangmo
+,.home4
+,.AllBox
+,.box1
+,.box2
+,.box3
+,.quote
+,.Inside
+,.avatar
+,.av1
+,.av2
+,.av3
+,.home5
+,.logos
+,.mail
+,.details
+,.conct
+,.name
+,.home6
+,.logo
+,.smallLogo
+,.homevb
+,.BigBox
+,.textFooter
+,.divMail
+,.policy
+,.tc
+,.side1
+,.side2{
+      font-size: 24px; 
+      width: 100%; 
+    }
+    
+}
