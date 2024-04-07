@@ -564,8 +564,8 @@
 .details input
 {
     margin-top: 40px;
-    margin-left: -50px;
-    width: 350px;
+    margin-left: -110px;
+    width: 400px;
     background: transparent;
     border: none;
     border-bottom: 4px solid #000000;
@@ -580,11 +580,12 @@
 }
 #inpt1
 {
-    margin-left: -10px;
+    margin-left: -70px;
     padding: 20px;
 }
 .details button
 {
+    text-align: center;
     margin-top: 60px;
     border-radius: 20px;
     fill:#F3F3F3;
@@ -698,18 +699,34 @@ a{
 }
 .side1
 {
+    list-style-type: none;
     margin-left: 50px;
 }
 .side2
 {
+    list-style-type: none;
     margin-left: 80px;
+}
+#comp,#prod
+{
+    font-size: 25px;
+    color: orange;
 }
 li{
     padding: 10px;
 }
 
-
-
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 @media only screen and (max-width: 768px) {
     
     .home,.BoxText
@@ -896,8 +913,9 @@ li{
 ,.policy
 ,.tc
 ,.side1
-,.side2{
-      font-size: 24px; 
+,.side2,*{
+      font-size: 12px; 
+      
       width: 100%; 
     }
     
