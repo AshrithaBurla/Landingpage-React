@@ -3,7 +3,8 @@
 
 
 .Text1
-{ 
+{
+   
     font-size: 40px;
     width:800px;
     padding: 70px;
@@ -88,10 +89,19 @@
    
 
 }
+
+
+
 .homepic
 {
     background-color: #346C81;
     font-weight: 600;
+}
+.box
+{
+    position: relative;
+    display: inline;
+    overflow: hidden;
 }
 
 .f , .d , .l
@@ -99,7 +109,6 @@
     text-align:center;
     position: relative;
     margin-top: 60px;
-    
     margin: 100px;
     display: inline-block;
     width: 300px;
@@ -110,85 +119,80 @@
     background-color: white;
 }
 
-.box {
-    position: relative;
-    overflow: hidden;
-    display: inline;
-}
+
 
 .images1 {
-    position: absolute;
+    
     top: 0;
     left: 0;
-    width: 25%;
-    height: 100%;
+   width: 450px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
     padding: 10px;
     box-sizing: border-box;
     opacity: 0;
     transition: opacity 0.3s ease;
-    margin-left: 40px;
     margin-top: -300px;
     
 }
+
 #f,#l,#d
 {
     padding-top: 220px;
+    
 }
-.box:hover .images1 {
+.f:hover .images1 {
     opacity: 1;
 }
 
 .images1 img {
     
-    width: calc(33.33% - 20px); 
+    display: inline-block;
     margin-bottom: 10px;
     transition: transform 0.3s ease;
     width: 150px;
     height: 200px;
-    padding: 5px;
+    padding: 10px;
+    margin-left: -10px;
+   
 }
 
 .images1 img:hover {
     transform: scale(1.1); 
-   
-
 }
 
 .images2 {
-    position: absolute;
+    
     top: 0;
     left: 0;
-    width: 25%;
-    height: 100%;
+    width: 450px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
     padding: 10px;
     box-sizing: border-box;
     opacity: 0;
     transition: opacity 0.3s ease;
-    margin-left: 570px;
     margin-top: -300px;
     
     
 }
 
-.box:hover .images2 {
+.d:hover .images2 {
     opacity: 1;
 }
 
 .images2 img {
-    width: calc(33.33% - 20px); 
+     
     margin-bottom: 10px;
     transition: transform 0.3s ease;
     width: 150px;
     height: 200px;
-    padding: 5px;
+    padding: 10px;
+    margin-left: -50px;
+    margin-right: 30px;
+    padding-left: 30px;
 }
 
 .images2 img:hover {
@@ -199,34 +203,33 @@
 
 
 .images3 {
-    position: absolute;
     top: 0;
-    left: 0;
-    width: 25%;
-    height: 100%;
+    left: 0;  
+    width: 450px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px;
+   padding: 10px ;
     box-sizing: border-box;
     opacity: 0;
     transition: opacity 0.3s ease;
-    margin-left: 1070px;
     margin-top: -300px;
 }
 
-.box:hover .images3 {
+.l:hover .images3 {
     opacity: 1;
 }
 
 .images3 img {
-    width: calc(33.33% - 20px); 
+  
     margin-bottom: 10px;
     transition: transform 0.3s ease;
     width: 150px;
     height: 200px;
-    padding: 5px;
+    padding: 10px;
+    margin-left: -50px;
+    margin-right: 30px;
+    padding-left: 30px;
 }
 
 .images3 img:hover {
@@ -715,207 +718,3 @@ li{
     padding: 10px;
 }
 
-html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-@media only screen and (max-width: 768px) {
-    
-    .home,.BoxText
-,.Text1
-,.picbg
-,.pictures
-,.BestS
-,.lamp
-,.plant1
-,.plant2
-,.light
-,.oval
-,.homepic
-,.box
-,.f
-,.images1
-,.d
-,.images2
-,.l
-,.images3
-,.home2
-,.TextHead
-,.TextHead2
-,.Images
-,.Img1
-,.Img2
-,.Img3
-,.middle
-,.home3
-,.photo
-,.ShortText
-,.script
-,.Zangmo
-,.home4
-,.AllBox
-,.box1
-,.box2
-,.box3
-,.quote
-,.Inside
-,.avatar
-,.av1
-,.av2
-,.av3
-,.home5
-,.logos
-,.mail
-,.details
-,.conct
-,.name
-,.home6
-,.logo
-,.smallLogo
-,.homevb
-,.BigBox
-,.textFooter
-,.divMail
-,.policy
-,.tc
-,.side1
-,.side2 {
-      justify-content: center;
-    }
-  
-    .home,.BoxText
-    ,.Text1
-    ,.picbg
-    ,.pictures
-    ,.BestS
-    ,.lamp
-    ,.plant1
-    ,.plant2
-    ,.light
-    ,.oval
-    ,.homepic
-    ,.box
-    ,.f
-    ,.images1
-    ,.d
-    ,.images2
-    ,.l
-    ,.images3
-    ,.home2
-    ,.TextHead
-    ,.TextHead2
-    ,.Images
-    ,.Img1
-    ,.Img2
-    ,.Img3
-    ,.middle
-    ,.home3
-    ,.photo
-    ,.ShortText
-    ,.script
-    ,.Zangmo
-    ,.home4
-    ,.AllBox
-    ,.box1
-    ,.box2
-    ,.box3
-    ,.quote
-    ,.Inside
-    ,.avatar
-    ,.av1
-    ,.av2
-    ,.av3
-    ,.home5
-    ,.logos
-    ,.mail
-    ,.details
-    ,.conct
-    ,.name
-    ,.home6
-    ,.logo
-    ,.smallLogo
-    ,.homevb
-    ,.BigBox
-    ,.textFooter
-    ,.divMail
-    ,.policy
-    ,.tc
-    ,.side1
-    ,.side2 {
-      width: 100%; 
-    }
-  }
-  
-  @media only screen and (max-width: 480px) {
-    .home,.BoxText
-,.Text1
-,.picbg
-,.pictures
-,.BestS
-,.lamp
-,.plant1
-,.plant2
-,.light
-,.oval
-,.homepic
-,.box
-,.f
-,.images1
-,.d
-,.images2
-,.l
-,.images3
-,.home2
-,.TextHead
-,.TextHead2
-,.Images
-,.Img1
-,.Img2
-,.Img3
-,.middle
-,.home3
-,.photo
-,.ShortText
-,.script
-,.Zangmo
-,.home4
-,.AllBox
-,.box1
-,.box2
-,.box3
-,.quote
-,.Inside
-,.avatar
-,.av1
-,.av2
-,.av3
-,.home5
-,.logos
-,.mail
-,.details
-,.conct
-,.name
-,.home6
-,.logo
-,.smallLogo
-,.homevb
-,.BigBox
-,.textFooter
-,.divMail
-,.policy
-,.tc
-,.side1
-,.side2,*{
-      font-size: 12px; 
-      
-      width: 100%; 
-    }
-    
-}
