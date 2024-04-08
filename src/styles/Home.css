@@ -92,149 +92,81 @@
 
 
 
-.homepic
+
+.home-container
 {
     background-color: #346C81;
     font-weight: 600;
+
 }
-.box
+
+.homepic
 {
-    position: relative;
-    display: inline;
-    overflow: hidden;
-}
-
-.f , .d , .l
-{
-    text-align:center;
-    position: relative;
-    margin-top: 60px;
-    margin: 100px;
-    display: inline-block;
-    width: 300px;
-    height: 540px;
-    color: #083344;
-    font-family: 'Poppins', sans-serif;
-    border-radius: 20px;
-    background-color: white;
-}
-
-
-
-.images1 {
     
-    top: 0;
-    left: 0;
-   width: 450px;
+    font-weight: 600;
+}
+.home-container {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 10px;
-    box-sizing: border-box;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    margin-top: -300px;
-    
-}
-
-#f,#l,#d
-{
-    padding-top: 220px;
-    
-}
-.f:hover .images1 {
-    opacity: 1;
-}
-
-.images1 img {
-    
-    display: inline-block;
-    margin-bottom: 10px;
-    transition: transform 0.3s ease;
-    width: 150px;
-    height: 200px;
-    padding: 10px;
-    margin-left: -10px;
-   
-}
-
-.images1 img:hover {
-    transform: scale(1.1); 
-}
-
-.images2 {
-    
-    top: 0;
-    left: 0;
-    width: 450px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 10px;
-    box-sizing: border-box;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    margin-top: -300px;
-    
-    
-}
-
-.d:hover .images2 {
-    opacity: 1;
-}
-
-.images2 img {
-     
-    margin-bottom: 10px;
-    transition: transform 0.3s ease;
-    width: 150px;
-    height: 200px;
-    padding: 10px;
-    margin-left: -50px;
-    margin-right: 30px;
-    padding-left: 30px;
-}
-
-.images2 img:hover {
-    transform: scale(1.1); 
-}
-
-
-
-
-.images3 {
-    top: 0;
-    left: 0;  
-    width: 450px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-   padding: 10px ;
-    box-sizing: border-box;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    margin-top: -300px;
-}
-
-.l:hover .images3 {
-    opacity: 1;
-}
-
-.images3 img {
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
   
-    margin-bottom: 10px;
-    transition: transform 0.3s ease;
-    width: 150px;
-    height: 200px;
-    padding: 10px;
-    margin-left: -50px;
-    margin-right: 30px;
-    padding-left: 30px;
-}
+  .homepic {
+    width: 300px;
 
-.images3 img:hover {
-    transform: scale(1.1); 
-}
+  }
+  
+  .box {
+    
+    border-radius: 20px;
+    padding: 10px;
+    background-color:white ;
+    height: 500px;
+  }
+  
+  .f {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 250px;
+   
+   
+  }
+  
+  .images {
+    margin-top: -250px;
+    display: grid;
+    grid-template-columns: repeat(2, 140px);
+    grid-gap: 10px;
+
+   
+  }
+  
+  .image-cell {
+    margin-left: -30px;
+    padding-left: -80px;
+    margin-top: -50px;
+    position: relative;
+    width: 160px;
+    height: 220px;
+    overflow: hidden;
+  }
+  
+  .image-cell img {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-cell:hover img {
+    opacity: 1;
+  }
 
 
 
