@@ -73,49 +73,92 @@ function Home() {
         </div>
          </div>
     </div>
-    
-    <div className="homepic">
-    <div className="box">
-      <div className="f">
-        <div id="f">FURNITURE
-        <div className="im">
-       <div className="images1">
-              <div className="im1">  <img src={pic1} /> </div>
-              <div className="im11">  <img src={pic15} /></div>
-              <div className="im12"> <img src={pic2}/></div>
-              <div  className="im13">   <img src={pic3} /></div>
-              <div className="im14">   <img src={pic4}/></div>
-                </div>       
-         </div>
-         </div>
-        </div>
 
-        <div className="d">
-          <div id="d">DECOR
-        <div className="images2" id="two">
-              <img src={pic5} className="im2"/>
-              <img src={pic6} className="im21"/>  
-              <img src={pic7} className="im22"/>
-              <img src={pic8} className="im23"/>
-              <img src={pic9} className="im24"/>
-       </div>
-        </div>         
-        </div>
 
-        <div className="l">
-          <div id="l">LIGHTINING
-        <div className="images3" id="three">
-                <img src={pic10} className="im3"/>
-                <img src={pic11} className="im31"/>
-                <img src={pic12} className="im32"/> 
-                <img src={pic13} className="im34"/>
-                <img src={pic14} className="im34"/>
-        </div>
-        </div>      
-        </div>
-         
+
+   
+
+
+<div class="home-container">
+  
+  <div class="homepic">
+    <div class="box">
+      <div class="f">FURNITURE</div>
+      <div class="images">
+      <div className="image-cell">  <img src={pic1} /> </div>
+                  <div className="image-cell">  <img src={pic15} /></div>
+                  <div className="image-cell"> <img src={pic2}/></div>
+                  <div  className="image-cell">   <img src={pic3} /></div>
+                  <div className="image-cell">   <img src={pic4}/></div>
+      </div>
     </div>
+  </div>
+
+  
+  <div class="homepic">
+    <div class="box">
+      <div class="f">DECOR</div>
+      <div class="images">
+      <div className="image-cell"> <img src={pic5} className="im2"/></div>
+      <div className="image-cell"><img src={pic6} className="im21"/> </div> 
+      <div className="image-cell"> <img src={pic7} className="im22"/></div>
+      <div className="image-cell"> <img src={pic8} className="im23"/></div>
+      <div className="image-cell"><img src={pic9} className="im24"/></div>
+      </div>
     </div>
+  </div>
+
+  
+  <div class="homepic">
+    <div class="box">
+      <div class="f">LIGHTINING</div>
+      <div class="images">
+      <div className="image-cell"> <img src={pic10} /></div>
+                <div className="image-cell"> <img src={pic11} /></div>
+                <div className="image-cell"><img src={pic12} /> </div>
+                <div className="image-cell"><img src={pic13} /></div>
+                <div className="image-cell"><img src={pic14} /></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
