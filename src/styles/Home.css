@@ -519,7 +519,7 @@
 }
 .details button
 {
-    text-align: center;
+    
     margin-top: 60px;
     border-radius: 20px;
     fill:#F3F3F3;
@@ -528,6 +528,10 @@
     height: 40px;
     border: none;
     font-size: 24px;
+}
+#bt
+{
+    padding: 7px;
 }
 .details :hover
 {
