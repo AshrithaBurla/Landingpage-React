@@ -247,7 +247,7 @@ function Home() {
       <div id="name">Full Name <input type="text" id="inpt"></input></div>
       <div id="name">E-Mail    <input type="text" id="inpt1"></input></div>  
       <div id="name">Message   <input type="text" id="inpt"></input></div>
-      <button type="button">contact us</button>
+      <button type="button" id="bt">contact us</button>
       </div>
 
 
