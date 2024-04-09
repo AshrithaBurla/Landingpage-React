@@ -111,13 +111,11 @@
     align-items: flex-start;
     width: 100%;
     margin: 0 auto;
-    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
   }
   
-  .homepic {
-    width: 300px;
-
-  }
   
   .box {
     
@@ -344,7 +342,7 @@
   }
   
 .home4{
-    width: 100%;
+    
     background-color: #083344;
     display: flex;
     font-family:'Poppins', sans-serif;
@@ -470,7 +468,7 @@
 }
 .details
 {
-    margin-top: 120px;
+    margin-top: 160px;
     margin-left: 400px;
     font-family:'Poppins', sans-serif;
     color: #F3F3F3;
@@ -499,7 +497,7 @@
 {
     margin-top: 40px;
     margin-left: -110px;
-    width: 300px;
+    width: 400px;
     background: transparent;
     border: none;
     border-bottom: 4px solid #000000;
