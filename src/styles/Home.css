@@ -1047,6 +1047,13 @@ li{
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 1400px) {
+    .logos
+    {
+        opacity: 0;
+    }
+}
 @media only screen and (max-width: 900px) {
     .side{
         width: 100%;
