@@ -51,11 +51,16 @@ import insta from "../assets/Instagram - Negative.png"
 import logo from "../assets/Logo.png"
 import homvb from "../assets/HomeVibes.png"
 
+import oneBG from "../assets/Section 2.png"
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 function Home() {
   return (
     <div>
-    <div className="home">
+      <div className="home">
+        <img src={oneBG}/>
+      </div>
+   
+   {/* <div className="home">
       <div className="BoxText">
         <div className="Text1">
           New arrivals
@@ -73,6 +78,7 @@ function Home() {
         </div>
          </div>
     </div>
+  */}
 
 
 
@@ -124,56 +130,6 @@ function Home() {
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <div className="home2">
       <div className="TextHead">Exciting Collections</div>
       <div className="TextHead2">curated specially for you</div>
@@ -189,12 +145,13 @@ function Home() {
     <div className="home3">
       <div className="photo">
         <img src={photo}/>
+        <div className="Zangmo">Zangmo</div>
       </div>
       <div>
       <div className="ShortText">Designers and Makers</div>
       <div className="script">Discover the artistry and craftsmanship behind HomeVibe with our skilled designers and makers 
       <div><button type="button">know more</button></div></div>
-      <div className="Zangmo">Zangmo</div>
+      
       </div>
      
     </div>
@@ -233,6 +190,10 @@ function Home() {
           <div id="av2"><img src={avatar2}></img></div>
           <div id="av3"><img src={avatar3}></img></div>
         </div>
+
+
+
+        
 
     <div className="home5">
       <img src={backImage}></img>
