@@ -7,7 +7,7 @@ import lamp from "../assets/lamp-thai-style 1.png"
 import oval from "../assets/Ellipse 1.png"
 import "../styles/Home.css";
 
-
+ 
 import img1 from "../assets/pexels-max-rahubovskiy-6492393 1 (2).png"
 import img2 from "../assets/pexels-max-rahubovskiy-6492393 1 (1).png"
 import img3 from "../assets/pexels-max-rahubovskiy-6492393 1.png"
@@ -55,7 +55,7 @@ import oneBG from "../assets/Section 2.png"
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 function Home() {
   return (
-    <div>
+    <div className="Body">
       <div className="home">
         <img src={oneBG}/>
       </div>
@@ -193,23 +193,31 @@ function Home() {
 
 
 
-        
+        <div className="home5" style={{ backgroundImage: `url(${backImage})` }}>
+    <div className="container">
+    <div className="header">
+    <div className="logo">
+        <img src={fb} alt="Facebook Logo" />
+        <img src={insta} alt="Instagram Logo" />
+        <img src={twtr} alt="Twitter Logo" />
+    </div>
+    </div>
+    <div className="main">
+      <div className="login-form">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <input type="text" name="name" placeholder="Full Name" />
+            <input type="email" name="email" placeholder="E-mail" />
+            <input type="text" name="text" placeholder="Message" />
+            <button type="submit">Concact us</button>
+        </form>
+        </div>
+    </div>
+</div>
+</div>
 
-    <div className="home5">
-      <img src={backImage}></img>
-      <div className="logos">
-        <img src={mail}/> <div id="mail">Email us @ xyz@HomeVibes.com</div>
-        <img src={fb}/>
-        <img src={insta}/>
-        <img src={twtr}/>
-      </div>
-      <div className="details">
-      <div id="conct"> Contact us</div>
-      <div id="name">Full Name <input type="text" id="inpt"></input></div>
-      <div id="name">E-Mail    <input type="text" id="inpt1"></input></div>  
-      <div id="name">Message   <input type="text" id="inpt"></input></div>
-      <button type="button" id="bt">contact us</button>
-      </div>
+      
+    
 
 
       <div className="home6">
@@ -251,36 +259,8 @@ function Home() {
           </div>    
       </div>
       </div>
-      </div>
-
-
-
     </div>    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-
-
-    
-
-    
-  
+    </div>  
   );
 }
 
