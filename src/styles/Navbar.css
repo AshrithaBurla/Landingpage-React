@@ -1,3 +1,4 @@
+
 .navbar {
   width: 100%;
   height: 100px;
@@ -127,7 +128,9 @@
   }
   .textNav
   {
-    width: 100%;
+    width: 400px;
+    font-size: 40px;
+   
   }
   
   .leftSide, .rightSide {
@@ -140,16 +143,13 @@
     font-size: 14px;
   }
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:700px) {
   
   .navbar {
     flex-direction: column;
     width: 100%;
   }
-  .textNav
-  {
-    width: 100%;
-  }
+  
   .leftSide, .rightSide {
     justify-content: center;
     margin-bottom: 5px;
@@ -160,3 +160,15 @@
     width: 100%;
   }
 }
+
+@media only screen and (max-width:500px) {
+  .textNav
+  {
+    width: 200px;
+    font-size: 20px;
+   
+  }
+
+
+}
+  
