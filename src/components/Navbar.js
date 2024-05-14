@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div className="Main"> 
       <div className="navbar">
-              <div className="leftSide">
+              <div className="leftSide">q
                 <img src={Nav}/>
                 <img src={text} id="text"/>
                 </div>
